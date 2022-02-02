@@ -1,4 +1,3 @@
-import longRunningFunction from "./longRunningFunction.js";
 import Bull from "bull"
 
 console.log("Background long running jobs with Bull...");

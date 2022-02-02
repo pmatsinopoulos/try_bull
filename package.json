@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "producer": "node src/producer.js",
-    "consumer": "node src/consumer.js"
+    "consumer": "node src/consumer.js",
+    "listener": "node src/listener.js"
   },
   "type": "module"
 }
