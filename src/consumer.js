@@ -9,6 +9,10 @@ const consumer = function() {
 
     longRunningFunction(job.data.imageURL);
 
+    if (job.id % 2 === 0) {
+      throw new Error("job failed")
+    }
+
     return {imageURL: job.data.imageURL, result: "OK"};
   });
 };
