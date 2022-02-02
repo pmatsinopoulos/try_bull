@@ -13,7 +13,8 @@
     "."
   ],
   "scripts": {
-    "start": "node index.js"
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js"
   },
   "type": "module"
 }
